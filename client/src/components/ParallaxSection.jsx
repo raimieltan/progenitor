@@ -40,8 +40,6 @@ const ParallaxSection = () => {
         <Navbar />
  <LandingPage />
           </div>
-
-     
       </div>
     );
   };

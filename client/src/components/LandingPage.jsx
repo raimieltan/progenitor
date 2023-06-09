@@ -1,11 +1,7 @@
 import React from 'react';
-import bg from "../assets/images/bg.jpeg";
 import logo from "../assets/images/logo.png";
-import Navbar from './Navbar';
-import RotatingSphere from './RotatingSphere';
 import { Canvas } from 'react-three-fiber';
-import space from "../assets/images/peakpx.jpg"
-import ParallaxSection from './ParallaxSection';
+
 const LandingPage = () => {
   return (
     <div className="h-screen flex flex-col items-center justify-center text-white">
@@ -14,7 +10,7 @@ const LandingPage = () => {
 
         <Canvas className="w-full h-full mt-10">
           <directionalLight color={"white"} intensity={2} position={[-10, 10, 1]} />
-          <RotatingSphere />
+       
         </Canvas>
       </div>
 

@@ -1,10 +1,4 @@
 
-import LandingPage from './components/LandingPage';
-import Navbar from './components/Navbar';
-import RotatingLight from './components/RotatingLight';
-import RotatingSphere from './components/RotatingSphere';
-import { Canvas } from 'react-three-fiber';
-import space from "./assets/images/space_bg.jpg"
 import ParallaxSection from './components/ParallaxSection';
 function App() {
   return (
