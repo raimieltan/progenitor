@@ -5,8 +5,13 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ox: ['Oxanium', 'Arial', 'sans-serif'],
+        // Add more font families as needed
+      },
   },
+},
   plugins: [],
 }
 
