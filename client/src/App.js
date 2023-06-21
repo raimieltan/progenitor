@@ -6,18 +6,14 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import Clients from "./pages/Clients";
 import CaseStudies from "./pages/CaseStudies";
 import Starships from "./pages/Starships";
 
-
 function App() {
   const [showNavbar, setShowNavbar] = useState(false);
-
-
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,28 +26,20 @@ function App() {
   }, []);
 
   return (
-
-
-    <div className="relative">
-
- 
-
-      <Router>
-      <div className={`fixed z-50 transition-opacity duration-500 ${showNavbar ? "opacity-100" : "opacity-0"}`}>
-        <Navbar />
-      </div>
+    <Router>
+      <div className="relative">
+   
+          <div
+            className={`fixed z-50 transition-opacity duration-500 ${
+              showNavbar ? "opacity-100" : "opacity-0"
+            }`}
+          >
+            <Navbar />
+          </div>
+       
         <div>
-
-
-          {/* A <Routes> looks through its children <Route>s and
-          renders the first one that matches the current URL. */}
           <Routes>
-            {/* <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/users">
-          <Users />
-        </Route> */}
+         
             <Route path="/" element={<LandingPage />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/clients" element={<Clients />} />
@@ -59,8 +47,8 @@ function App() {
             <Route path="/starships" element={<Starships />} />
           </Routes>
         </div>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
