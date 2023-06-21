@@ -1,5 +1,10 @@
 import React from 'react';
 import logo from "../assets/images/logo.png";
+import {
+
+  Link
+} from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -8,11 +13,11 @@ const Navbar = () => {
 
         <img className="w-36 mr-4" src={logo} alt="Logo" />
 
-        <span className="text-white text-md font-bold font-ox px-20"><a href="/home"> HOME</a></span>
-        <span className="text-white text-md font-bold font-ox px-20"><a href="/portfolio"> PORTFOLIO</a></span>
-        <span className="text-white text-md font-bold font-ox px-20"><a href="/clients"> CLIENTS</a></span>
-        <span className="text-white text-md font-bold font-ox px-20"><a href="/case studies"> CASE STUDIES</a></span>
-        <span className="text-white text-md font-bold font-ox px-20"><a href="/starships"> STARSHIPS</a></span>
+        <span className="text-white text-md font-bold font-ox px-20"> <Link to="/">HOME</Link></span>
+        <span className="text-white text-md font-bold font-ox px-20"> <Link to="/portfolio">PORTFOLIO</Link></span>
+        <span className="text-white text-md font-bold font-ox px-20"> <Link to="/clients">CLIENTS</Link></span>
+        <span className="text-white text-md font-bold font-ox px-20"> <Link to="/casestudies">CASE STUDIES</Link></span>
+        <span className="text-white text-md font-bold font-ox px-20"> <Link to="/starships">STAR SHIPS</Link></span>
 
       </div>
       {/* Add more navigation links or other components here */}
