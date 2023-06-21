@@ -1,9 +1,9 @@
 import headerImage from "../assets/images/space-illustration.png"
-
+import PageTransition from "../components/PageTransition";
 
 function Starships() {
     return (
-        <>
+        <PageTransition>
             <div>
                 <img src={headerImage} />
                 <div className="mx-10">
@@ -15,7 +15,7 @@ function Starships() {
                 </div>
     
             </div>
-        </>
+        </ PageTransition>
         );
 }
 

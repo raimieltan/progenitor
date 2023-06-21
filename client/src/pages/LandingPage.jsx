@@ -2,10 +2,11 @@ import EmbedReel from "../components/LandingPage/EmbedReel";
 import HeroSection from "../components/LandingPage/HeroSection";
 import starShips from "../assets/images/starships.png"
 import galaxyImage from "../assets/images/galaxy-system.png"
+import PageTransition from "../components/PageTransition";
 
 function LandingPage() {
     return (
-    <>
+    <PageTransition >
         <HeroSection />
         <div className="mt-10 mb-20">
             <img src={starShips} />
@@ -40,7 +41,7 @@ function LandingPage() {
                 </div>
             </div>
         </div>
-    </>
+    </ PageTransition>
     );
 }
 

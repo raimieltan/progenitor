@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import LandingPage from "./pages/LandingPage";
+import { AnimatePresence } from 'framer-motion';
+
 
 import {
   BrowserRouter as Router,

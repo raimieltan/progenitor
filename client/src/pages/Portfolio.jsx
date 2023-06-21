@@ -1,8 +1,9 @@
 import headerImage from "../assets/images/space-illustration.png"
+import PageTransition from "../components/PageTransition";
 
 function Portfolio() {
     return (
-    <>
+    <PageTransition>
         <div>
             <img src={headerImage} />
             <div className="mx-10">
@@ -14,7 +15,7 @@ function Portfolio() {
             </div>
 
         </div>
-    </>
+    </ PageTransition>
     );
 }
 
