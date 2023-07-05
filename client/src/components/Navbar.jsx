@@ -15,39 +15,47 @@ const Navbar = () => {
         <img className="w-36 mr-4" src={logo} alt="Logo" />
 
         <span
-          className={`text-white text-md font-bold font-ox px-20 ${isActiveLink(
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
             '/'
           )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
         >
           <Link to="/">HOME</Link>
         </span>
         <span
-          className={`text-white text-md font-bold font-ox px-20 ${isActiveLink(
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
             '/portfolio'
           )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
         >
           <Link to="/portfolio">PORTFOLIO</Link>
         </span>
         <span
-          className={`text-white text-md font-bold font-ox px-20 ${isActiveLink(
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
             '/clients'
           )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
         >
           <Link to="/clients">CLIENTS</Link>
         </span>
         <span
-          className={`text-white text-md font-bold font-ox px-20 ${isActiveLink(
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
             '/casestudies'
           )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
         >
           <Link to="/casestudies">CASE STUDIES</Link>
         </span>
         <span
-          className={`text-white text-md font-bold font-ox px-20 ${isActiveLink(
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
             '/starships'
           )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
         >
           <Link to="/starships">STAR SHIPS</Link>
+        </span>
+
+        <span
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
+            '/starships'
+          )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
+        >
+          <Link to="/starships">BLOGS</Link>
         </span>
       </div>
       {/* Add more navigation links or other components here */}

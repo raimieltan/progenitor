@@ -1,7 +1,7 @@
 import EmbedReel from "../components/LandingPage/EmbedReel";
 import HeroSection from "../components/LandingPage/HeroSection";
 import starShips from "../assets/images/starships.png"
-import galaxyImage from "../assets/images/galaxy-system.png"
+import galaxyImage from "../assets/images/majestic-rotate-earth.png"
 import PageTransition from "../components/PageTransition";
 
 function LandingPage() {

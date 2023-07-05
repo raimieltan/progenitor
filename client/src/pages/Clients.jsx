@@ -1,4 +1,5 @@
 import headerImage from "../assets/images/space-illustration.png"
+import HeaderTitle from "../components/HeaderTitle";
 import PageTransition from "../components/PageTransition";
 
 function Clients() {
@@ -8,9 +9,7 @@ function Clients() {
                 <img src={headerImage} />
                 <div className="mx-10">
     
-                    <div className="border-4 border-blue-300 p-3 rounded-xl w-72 text-center">
-                        <h1 className="text-white font-ox text-4xl">CLIENTS</h1>
-                    </div>
+                    <HeaderTitle title={"CLIENTS"} />
     
                 </div>
     
