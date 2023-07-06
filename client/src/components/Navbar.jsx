@@ -57,6 +57,14 @@ const Navbar = () => {
         >
           <Link to="/starships">BLOGS</Link>
         </span>
+
+        <span
+          className={`text-white text-sm font-bold font-ox px-16 ${isActiveLink(
+            '/starships'
+          )} transition-transform duration-300 ease-in-out transform hover:scale-110`}
+        >
+          <Link to="/about">ABOUT</Link>
+        </span>
       </div>
       {/* Add more navigation links or other components here */}
     </nav>
