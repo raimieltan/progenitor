@@ -15,7 +15,7 @@ function About() {
                 </div>
                 
                 <div className="p-3 w-100 text-right mr-40 mt-20">
-                  <h1 className="text-white font-ox-bold text-5xl">COMPANY OVERVIEW</h1>
+                  <h1 className="text-white font-ox-bold text-6xl">COMPANY OVERVIEW</h1>
                 </div>            
 
                 <div className="relative">
@@ -44,7 +44,7 @@ function About() {
 
                 <div className="relative">
                   <div className="absolute z-30 p-3 w-100 text-left ml-20 mt-20 flex items-start">
-                    <h1 className="text-white font-ox-bold text-5xl">HISTORY</h1>
+                    <h1 className="text-white font-ox-bold text-6xl">HISTORY</h1>
                   </div>
                   
                   <div className="flex items-end w-full">
